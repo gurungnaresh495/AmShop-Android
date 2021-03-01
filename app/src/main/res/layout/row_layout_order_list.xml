@@ -1,0 +1,56 @@
+<androidx.cardview.widget.CardView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/row_layout_order_list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Date"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/row_layout_order_list_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total amount: "
+
+            />
+        <TextView
+        android:id="@+id/row_layout_order_list_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total price"
+
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

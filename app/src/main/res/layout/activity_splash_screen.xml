@@ -1,0 +1,39 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/circle_for_splash_screen"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/aclonica"
+        android:text="AmShop"
+        android:textColor="@color/white"
+        android:textSize="50dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starting your application"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_toLeftOf="@+id/progress_bar"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

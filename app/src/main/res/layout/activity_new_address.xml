@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/new_address_house_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="House Number" />
+
+            <EditText
+                android:id="@+id/new_address_street_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Street Name" />
+
+            <EditText
+                android:id="@+id/new_address_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City" />
+
+            <EditText
+                android:id="@+id/new_address_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pincode" />
+
+            <EditText
+                android:id="@+id/new_address_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address type" />
+
+            <Button
+                android:id="@+id/new_address_submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Submit" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

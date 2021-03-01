@@ -1,0 +1,39 @@
+<LinearLayout android:layout_width="wrap_content"
+    android:id="@+id/increase_text_decrease"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/cart_delete_icon"
+    android:layout_alignParentRight="true"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/increase_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/plus_minus_one_background"
+        android:src="@drawable/ic_baseline_exposure_plus_1_24"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/product_count"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/decrease_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/plus_minus_one_background"
+        android:src="@drawable/ic_baseline_exposure_neg_1_24"
+        android:textSize="30dp"
+
+        />
+</LinearLayout>

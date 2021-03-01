@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group >
+        <item android:id="@+id/item_account" android:title="Profile"/>
+        <item android:id="@+id/item_order" android:title="Orders"/>
+        <item android:id="@+id/item_billing" android:title="Billing"/>
+    </group>
+
+    <group >
+        <item android:id="@+id/item_rate_app" android:title="Rate us"/>
+        <item android:id="@+id/item_help" android:title="Help"/>
+        <item android:id="@+id/item_refer" android:title="Refer to a Friend"/>
+    </group>
+    <group>
+        <item android:id="@+id/item_logout" android:title="Logout"/>
+        <item android:id="@+id/item_login" android:title="Login"/>
+
+    </group>
+</menu>

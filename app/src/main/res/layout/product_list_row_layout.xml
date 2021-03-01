@@ -1,0 +1,52 @@
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/product_list_card_view"
+    android:layout_margin="5dp"
+    app:cardElevation="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/product_list_row_layout_image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/product_list_row_layout_text_view_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/product_list_row_layout_text_view_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true" />
+            <Button
+                android:id="@+id/details_activity_add_to_cart_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:text="Add to Cart" />
+
+            <include layout="@layout/increase_text_decrease"
+                android:id="@+id/product_details_add_to_cart_text_views"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
